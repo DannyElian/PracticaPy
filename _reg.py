@@ -286,3 +286,37 @@ match = re.findall(pattern, words)
 
 print(match)
 # principio (^) a fin ($)
+
+
+# Buscar todas las vocales de una palabra
+
+words = "Maestro mars"
+
+pattern = r"[aeiou]"
+# pattern = r"[^aeiou]" negar lo que hay dentro
+
+match = re.findall(pattern, words)
+
+print(match)
+
+
+# Una Regex para encontrar las palabras man, fan y ban
+# pero ignora el resto
+text = "man ran fan ñan ban"
+pattern = r"[mfb]an"
+
+match = re.findall(pattern, text)
+
+print(match)
+
+# Ejercicio:
+# Nos han complicado el asunto, porque ahora hay palabras que encajan pero no empiezan por esas letras.
+# Solo queremos las palabras man, fan y ban
+text = "omniman fanatico man bandana"
+# \b
+
+pattern = r"\b[mfb]an"
+
+match = re.findall(pattern, text)
+
+print(match)
