@@ -56,6 +56,7 @@ for i in result:
 
     print(i.group(), i.start(), i.end())
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 text = "Todo el mundo dice que la IA nos va a quitar el trabajo. Pero la ia no es tan mala. ¡Viva la Ia!"
@@ -67,3 +68,6 @@ if found:
 =======
 hola
 >>>>>>> feature
+=======
+hola
+>>>>>>> 822fef1 (Commit para prueba nueva)
