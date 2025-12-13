@@ -55,6 +55,7 @@ result = re.finditer(pattern, text)
 for i in result:
 
     print(i.group(), i.start(), i.end())
+<<<<<<< HEAD
 
 
 text = "Todo el mundo dice que la IA nos va a quitar el trabajo. Pero la ia no es tan mala. ¡Viva la Ia!"
@@ -63,3 +64,6 @@ found = re.findall(pattern, text, re.IGNORECASE)
 
 if found:
     print(found)
+=======
+hola
+>>>>>>> feature
