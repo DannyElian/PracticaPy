@@ -18,7 +18,7 @@ Crea una función en Python que reciba una cadena de texto. Esta función debe c
 from ctypes import resize
 from itertools import count
 from os import system
-import random
+
 
 if system("clear") != 0:
     system("cls")
