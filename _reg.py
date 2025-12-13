@@ -60,6 +60,3 @@ for i in result:
 text = "Todo el mundo dice que la IA nos va a quitar el trabajo. Pero la ia no es tan mala. ¡Viva la Ia!"
 pattern = "IA"
 found = re.findall(pattern, text, re.IGNORECASE)
-
-if found:
-    print(found)
