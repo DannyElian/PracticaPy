@@ -61,14 +61,9 @@ text = "Todo el mundo dice que la IA nos va a quitar el trabajo. Pero la ia no e
 pattern = "IA"
 found = re.findall(pattern, text, re.IGNORECASE)
 
-<<<<<<< HEAD
 
 if found:
     print(found)
 
 else:
     print("Not found")
-=======
-if found:
-    print(found)
->>>>>>> f89975e (Rama nueva)
