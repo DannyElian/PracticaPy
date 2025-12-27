@@ -1,6 +1,6 @@
 # Type Hints
 
-name = "Elian"
+name: str = "Elian"
 
 print(name)
 print(type(name))
